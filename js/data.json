@@ -98,6 +98,7 @@ var lp = {
 		{"id":"wikia","category":"publishing","name":"Wikia","description":"wiki","address":"http://wikia.com/"},
 		{"id":"wikidot","category":"publishing","name":"Wikidot","description":"wiki","address":"http://wikidot.com/"},
 		{"id":"libravatar","category":"publishing","name":"Libravatar","description":"web avatar service","address":"http://www.libravatar.org/","licenses":["gnu-agpl-v3"],"tags":["avatar","decentralized"],"alternative":["gravatar"]},
+		{"id":"tiddlywiki","category":"publishing","name":"TiddlyWiki","description":"wiki","address":"http://tiddlyspace.com","licenses":["bsd"],"introduction": "Pure Javascript portable wiki","alternative":["wikia","wikidot"]},
 		{"id":"wikispecies","category":"science","name":"Wikispecies","description":"directory","address":"http://species.wikimedia.org/wiki/Main_Page"},
 		{"id":"plos","category":"science","name":"PLoS","description":"library","address":"http://plos.org/"},
 		{"id":"sage","category":"science","name":"Sage","description":"mathematics","address":"http://sagemath.org/"},
