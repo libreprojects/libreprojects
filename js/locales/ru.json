@@ -149,5 +149,18 @@
 	"university":"университет",
 	"website":"веб-сайт",
 	"wiki":"вики",
-	"world map":"карта мира"
+	"world map":"карта мира",
+
+  "The free news source you can write.":
+  "свободный источник новостей, которые может написать каждый.",
+
+  "The free encyclopedia that anyone can edit.":
+  "свободную энциклопедию, которую может редактировать каждый.",
+
+  "A database of freely usable media files to which anyone can contribute.":
+  "собрание свободных для дальнейшего использования медиафайлов.",
+
+  "The free species directory that anyone can edit.":
+  "свободный каталог жизни."
+
 }
