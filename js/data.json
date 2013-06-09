@@ -127,7 +127,7 @@ var lp = {
 		{"id":"openstreetmap","category":"travel","name":"OpenStreetMap","description":"world map","address":"http://openstreetmap.org/"},
 		{"id":"openrouteservice","category":"travel","name":"OpenRouteService","description":"directions","address":"http://openrouteservice.org/"},
 		{"id":"webglearth","category":"travel","name":"WebGL Earth","description":"globus","address":"http://webglearth.com/"},
-		{"id":"wikitravel","category":"travel","name":"Wikitravel","description":"guide","address":"http://wikitravel.org/"},
+		{"id":"wikivoyage","category":"travel","name":"Wikivoyage","description":"travel guide","address":"http://wikivoyage.org/", "introduction":"Free worldwide travel guide that anyone can edit."},
 		{"id":"openmarkers","category":"travel","name":"openMarkers","description":"places","address":"http://openmarkers.com/"},
 		{"id":"bewelcome","category":"travel","name":"BeWelcome","description":"hospitality","address":"http://bewelcome.org/"},
 		{"id":"hitchwiki","category":"travel","name":"Hitchwiki","description":"hitchhiking","address":"http://hitchwiki.org/"},
