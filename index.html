@@ -1,10 +1,10 @@
 <!DOCTYPE html><html><head>
-	<meta charset="utf-8">
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<title>Libre Projects</title>
-	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link rel="shortcut icon" href="images/favicon.png">
-	<link rel="apple-touch-icon-precomposed" href="images/favicon-touch.png">
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="apple-touch-icon-precomposed" href="images/favicon-touch.png" />
 	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
 	<!--<script type="text/javascript" src="js/jquery.cookie.js"></script>-->
 	<!--script type="text/javascript" src="js/jquery.ba-dotimeout.min.js"></script-->
@@ -22,7 +22,8 @@
 <p><span id="nb-projects"></span> <span class="translatable">open source hosted web services</span></p>
 
 <ul id="locale"></ul>
-<p id="search"><label class="translatable" for="searching">search</label><input id="searching" name="searching" type="search" autofocus /></p>
+<p id="search"><label class="translatable" for="searching">search</label><input id="searching" name="searching" type="search" autofocus />
+<br/><span class="searchError"><span id="searchMessage" class="translatable">No results for</span> "<span id="searchItem"></span>".</span></p>
 
 <div id="categories">
 	<h2 id="favorites"><a href="#favorites">&#9733;</a></h2>
@@ -36,22 +37,40 @@
 	<p class="translatable">Ideally, you have a <a href='http://freedomboxfoundation.org'>FreedomBox</a> running at home and don't need to trust anyone. But many are not in the position to do that; either because of no permanent residence, not enough money to afford it or a weak internet connection not able to serve data across the country. That's why we hope the <a href='http://unhosted.org'>Unhosted</a> architecture will get adopted.</p>
 
 	<h3 id="participate" class="translatable">Participate</h3>
-	<p class="translatable" xmlns:dct='http://purl.org/dc/terms/'><a rel='dct:publisher' href='http://jancborchardt.net'><span property='dct:title'>Jan-Christoph Borchardt</span></a> &amp; <a rel='dct:publisher' href='http://github.com/jhuet'><span property='dct:title'>Jérémy Huet</span></a> have <a rel='license' href='http://creativecommons.org/publicdomain/zero/1.0/' title='by a Public Domain Dedication'>waived all copyright</a> on this project (logos are subject to their own license).</p>
+	<p class="translatable" xmlns:dct='http://purl.org/dc/terms/'>
+		<a rel='dct:publisher' href='http://jancborchardt.net'><span property='dct:title'>Jan-Christoph Borchardt</span></a> &amp;
+		<a rel='dct:publisher' href='http://github.com/jhuet'><span property='dct:title'>Jérémy Huet</span></a> have <a rel='license' href='http://creativecommons.org/publicdomain/zero/1.0/' title='by a Public Domain Dedication'>waived all copyright</a> on this project (logos are subject to their own license).
+	</p>
 	<p class="translatable"><a href='http://github.com/libreprojects/libreprojects'>Help with code</a>, <a href='http://github.com/libreprojects/libreprojects/issues/new'>suggest a project</a> (make sure it’s open source, hosted & usable) and tell your friends about this!</p>
 </footer>
 
 <div id="project-details">
 	<div class="header">
-		<p><a class="address" target="_blank"><img class="logo" /><strong class="name"></strong></a></p>
+		<p><a class="address" target="_blank"><img class="logo" src="" alt="" /><strong class="name"></strong></a></p>
 		<p class="cat-desc"><a href="#" class="category translatable"></a><span class="description translatable"></span></p>
 		<ul class="tags"></ul>
 	</div>
 	<div class="details">
 		<p class="introduction translatable"></p>
-		<div class="similar-to"><p class="translatable label" style="display:block">Similar to</p><p class="translatable label" style="display:none;width:100%;">No similar projects added yet</p><ul></ul></div>
-		<div class="alternative-to"><p class="translatable label" style="display:block">Alternative to</p><p class="translatable label" style="display:none;width:100%;">No alternatives added yet</p><ul></ul></div>
-		<div class="license"><p class="translatable label" style="display:block">Source code</p><p class="translatable label" style="display:none;width:100%;">No licenses added yet</p><ul></ul></div>
-		<div class="tosdr"><p class="translatable label" style="display:block"><acronym title='Terms of service ratings provided by http://tos-dr.info'>TOS rating</acronym></p><ul></ul></div>
+		<div class="similar-to">
+			<p class="translatable label" style="display:block">Similar to</p>
+			<p class="translatable label" style="display:none;width:100%;">No similar projects added yet</p>
+			<ul></ul>
+		</div>
+		<div class="alternative-to">
+			<p class="translatable label" style="display:block">Alternative to</p>
+			<p class="translatable label" style="display:none;width:100%;">No alternatives added yet</p>
+			<ul></ul>
+		</div>
+		<div class="license">
+			<p class="translatable label" style="display:block">Source code</p>
+			<p class="translatable label" style="display:none;width:100%;">No licenses added yet</p>
+			<ul></ul>
+		</div>
+		<div class="tosdr">
+			<p class="translatable label" style="display:block"><abbr title='Terms of service ratings provided by http://tos-dr.info'>TOS rating</abbr></p>
+			<ul></ul>
+		</div>
 	</div>
 	<p class="tip translatable"></p>
 </div>

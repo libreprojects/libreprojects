@@ -184,9 +184,13 @@ lp = $.extend(lp, {
 			// Hide or show projects depending if they match or not
 			var find = $('#categories ul li').filter(function() {return this.id.toLowerCase().match(value);});
 			if (find.length) {
+			  if ( $('.searchError').is(':visible') ) { $('.searchError').toggle(); }
 			  $('#categories ul li').hide();
 			  find.show();
 			  lp.categoriesDisplay();
+			} else {
+			  $('#searchItem').text(value);
+			  if ( $('.searchError').is(':hidden') ) { $('.searchError').toggle(); }
 			}
 //		} );
 	},

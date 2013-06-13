@@ -5,6 +5,9 @@
     "search":
     "suchen",
 
+    "No results for":
+    "Keine Ergebnisse für",
+
     "Information":
     "Information",
 
@@ -149,5 +152,15 @@
     "university":"Universität",
     "website":"Webseite",
     "wiki":"Wiki",
-    "world map":"Weltkarte"
+    "world map":"Weltkarte",
+
+  "The free news source you can write.":
+  "Die freie Nachrichtenquelle, bei der auch du mitmachen kannst.",
+
+  "A database of freely usable media files to which anyone can contribute.":
+  "Eine Sammlung von frei verwendbaren Mediendateien, zu der jeder beitragen kann.",
+
+  "A localisation platform for translation communities, language communities, and free and open source projects.":
+  "Eine Lokalisierungsplattform für Übersetzer- und Sprachgemeinschaften sowie Freie-Software- und Open-Source-Projekte."
+
 }
