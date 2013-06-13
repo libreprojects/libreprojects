@@ -152,5 +152,27 @@
 	"university":"universit&agrave;",
 	"website":"siti web",
 	"wiki":"wiki",
-	"world map":"mappa del mondo"
+	"world map":"mappa del mondo",
+
+	"The free news source you can write.":
+	"Fonte di notizie a contenuto aperto che chiunque può scrivere.",
+
+	"The free encyclopedia that anyone can edit.":
+	"L'enciclopedia libera che chiunque può modificare.",
+
+	"The open-content textbooks collection that anyone can edit.":
+	"Manuali e libri di testo liberi che chiunque può migliorare.",
+
+	"The free library that anyone can improve.":
+	"La biblioteca libera che chiunque può migliorare.",
+
+  "A database of freely usable media files to which anyone can contribute.":
+  "Un database di file multimediali liberamente utilizzabili al quale chiunque può contribuire.",
+
+  "The free species directory that anyone can edit.":
+  "Un catalogo aperto e libero di tutte le specie viventi.",
+
+  "A localisation platform for translation communities, language communities, and free and open source projects.":
+  "Una piattaforma di traduzione per le comunità di traduzione, le comunità linguistiche ed i progetti liberi ed open source."
+
 }

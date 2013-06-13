@@ -121,5 +121,24 @@
 	"emulators":"&eacute;mulateurs",
 	"development":"d&eacute;veloppement",
 	"science":"science",
-	"organization":"organisation"
+	"organization":"organisation",
+
+  "The free news source you can write.":
+  "La source d'informations que vous pouvez écrire.",
+
+  "The free encyclopedia that anyone can edit.":
+  "Le projet d’encyclopédie libre que vous pouvez améliorer.",
+
+  "The open-content textbooks collection that anyone can edit.":
+  "La bibliothèque de livres pédagogiques libres que chacun peut améliorer.",
+
+  "A database of freely usable media files to which anyone can contribute.":
+  "Une médiathèque de fichiers média librement réutilisables et que chacun peut enrichir.",
+
+  "The free species directory that anyone can edit.":
+  "Le répertoire libre et ouvert des espèces vivantes.",
+
+  "A localisation platform for translation communities, language communities, and free and open source projects.":
+  "Une plateforme de localisation pour les communautés de traduction, les communautés linguistiques, et les projets libres et open source."
+
 }
