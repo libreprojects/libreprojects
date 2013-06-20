@@ -102,7 +102,7 @@ var lp = {
 		{"id":"sage","category":"science","name":"Sage","description":"mathematics","address":"http://sagemath.org/"},
 		{"id":"graph","category":"science","name":"Graph","description":"functions","address":"http://graph.tk/"},
 		{"id":"fractallab","category":"science","name":"Fractal Lab","description":"explorer","address":"http://fractal.io/"},
-		{"id":"teamlab","category":"organization","name":"TeamLab","description":"projects","address":"http://teamlab.com/"},
+		
 		{"id":"ofuz","category":"organization","name":"Ofuz","description":"projects","address":"http://ofuz.com/"},
 		{"id":"clockingit","category":"organization","name":"Clocking IT","description":"time tracking","address":"http://clockingit.com/"},
 		{"id":"limesurvey","category":"organization","name":"LimeSurvey","description":"surveys","address":"http://limeservice.com/"},
