@@ -5,6 +5,9 @@
 	"search":
 	"recherche",
 
+  "No results for":
+  "Pas de résultats pour",
+
 	"Information":
 	"Informations",
 
@@ -119,6 +122,8 @@
 	"development":"d&eacute;veloppement",
 	"science":"science",
 	"organization":"organisation",
+
+    "travel guide":"guide de voyage",
 
   "The free news source you can write.":
   "La source d'informations que vous pouvez écrire.",

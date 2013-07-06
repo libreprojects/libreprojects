@@ -5,6 +5,9 @@
 	"search":
 	"искать",
 
+	"No results for":
+	"Ничего не найдено по",
+
 	"Information":
 	"Информация",
 
@@ -86,7 +89,6 @@
 	"globus":"глобус",
 	"gogogo!":"gogogo!",
 	"graphic editor":"графический редактор",
-	"guide":"гид",
 	"hacking":"хакерство",
 	"help platform":"справочная платформа",
 	"hitchhiking":"автостоп",
@@ -145,6 +147,7 @@
 	"tools":"инструменты",
 	"translation":"перевод",
 	"translator":"переводчик",
+	"travel guide":"Путеводитель",
 	"typefaces":"шрифты",
 	"university":"университет",
 	"website":"веб-сайт",

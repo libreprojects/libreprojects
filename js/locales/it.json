@@ -5,6 +5,9 @@
 	"search":
 	"cerca",
 
+  "No results for":
+  "Nessun risultato per",
+
 	"Information":
 	"Informazioni",
 
@@ -86,7 +89,6 @@
 	"globus":"globo",
 	"gogogo!":"gogogo!",
 	"graphic editor":"editor grafico",
-	"guide":"guida",
 	"hacking":"hacking",
 	"help platform":"piattaforma aiuto<!--FIXME-->",
 	"hitchhiking":"autostop",
@@ -145,6 +147,7 @@
 	"tools":"strumenti",
 	"translation":"traduzioni",
 	"translator":"traduttore",
+	"travel guide":"guida turistica",
 	"typefaces":"typefaces<!--FIXME-->",
 	"university":"universit&agrave;",
 	"website":"siti web",

@@ -5,6 +5,9 @@
     "search":
     "suchen",
 
+    "No results for":
+    "Keine Ergebnisse für",
+
     "Information":
     "Information",
 
@@ -86,7 +89,6 @@
     "globus":"Globus",
     "gogogo!":"Go Go Go!",
     "graphic editor":"Grafikbearbeitung",
-    "guide":"Anleitung",
     "hacking":"Hacken",
     "help platform":"Teilnahmeplatform",
     "hitchhiking":"Trampen",
@@ -145,6 +147,7 @@
     "tools":"Tools",
     "translation":"Übersetzung",
     "translator":"Übersetzer",
+    "travel guide":"Reiseführer",
     "typefaces":"Schriftarten",
     "university":"Universität",
     "website":"Webseite",

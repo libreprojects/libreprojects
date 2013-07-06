@@ -23,6 +23,7 @@ a img { border:0; }
 #search { z-index:200; position:absolute; margin:0; top:4em; right:3em; background:none; border:none; }
 #search label { position:absolute; top:.6em; left:.5em; font-size:2em; }
 #searching { background:none; border:none; color:#fff; font-size:2em; padding:.3em .5em; width:7em; outline:0; }
+#search .searchError { display: none; color: #FF4747; }
 
 /* main heading */
 h1 { font-size:3.8em; display:block; white-space:nowrap; }
