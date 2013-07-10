@@ -89,7 +89,6 @@
 	"globus":"globo",
 	"gogogo!":"gogogo!",
 	"graphic editor":"editor grafico",
-	"guide":"guida",
 	"hacking":"hacking",
 	"help platform":"piattaforma aiuto<!--FIXME-->",
 	"hitchhiking":"autostop",
@@ -144,6 +143,7 @@
 	"tennis":"tennis",
 	"text editor":"editor di testo",
 	"time tracking":"gestione del tempo",
+	"travel guide":"guida turistica",
 	"to-do list":"to-do list<!--FIXME-->",
 	"tools":"strumenti",
 	"translation":"traduzioni",
@@ -173,6 +173,9 @@
   "Un catalogo aperto e libero di tutte le specie viventi.",
 
   "A localisation platform for translation communities, language communities, and free and open source projects.":
-  "Una piattaforma di traduzione per le comunità di traduzione, le comunità linguistiche ed i progetti liberi ed open source."
+  "Una piattaforma di traduzione per le comunità di traduzione, le comunità linguistiche ed i progetti liberi ed open source.",
+
+  "Free worldwide travel guide that anyone can edit.":
+  "La guida turistica gratuita e mondiale che chiunque può modificare."
 
 }
