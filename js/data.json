@@ -147,6 +147,8 @@ var lp = {
 		{"id":"transifex","category":"development","name":"Transifex","description":"translation","address":"http://transifex.net/","licenses":"gnu-gpl-v2","source":"https://github.com/transifex/transifex"},
 		{"id":"translatewiki","category":"development","name":"Translatewiki","description":"translation","address":"http://translatewiki.net/", "introduction": "A localisation platform for translation communities, language communities, and free and open source projects."},
 
+{"id":"pijs","category":"development","name":"PIJS.io","description":"IDE","address":"http://pijs.io/", "introduction": "A cloud-platform to write embedded applications for Raspberry Pi.","licenses":["mit"],"source":"https://github.com/tbideas/asteroid/"},
+
 		{"id":"govsgo","category":"games","name":"Go vs Go","description":"gogogo!","address":"http://govsgo.com/","licenses":["mit"],"source":"http://github.com/ryanb/govsgo"},
 		{"id":"lichess","category":"games","name":"Lichess","description":"chess","address":"http://lichess.org/","licenses":["mit"],"source":"http://github.com/ornicar/lila"},
 		{"id":"tankworld","category":"games","name":"Tankworld","description":"3D shooter","address":"http://playtankworld.com","licenses":["gnu-gpl-v3"],"source":"http://www.playtankworld.com/multiplayer"},
