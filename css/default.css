@@ -20,8 +20,8 @@ a img { border:0; }
 
 
 /* search styling */
-#search { z-index:200; position:absolute; margin:0; top:4em; right:3em; background:none; border:none; }
-#search label { position:absolute; top:.6em; left:.5em; font-size:2em; }
+#search { z-index:200; margin:-2em 0 0; text-align:right; background:none; border:none; }
+#search label { display:inline-block; text-align:left; width:6em; margin-right:-7em; padding:.5em; font-size:2em; }
 #searching { background:none; border:none; color:#fff; font-size:2em; padding:.3em .5em; width:7em; outline:0; }
 
 /* main heading */
