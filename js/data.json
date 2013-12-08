@@ -9,6 +9,7 @@ var lp = {
 		{"id":"cc-by-sa-v3","name":"Creative Commons Attribution-ShareAlike 3.0 Unported","address":"https://creativecommons.org/licenses/by-sa/3.0/"},
 		{"id":"cc-by-nd-v3","name":"Creative Commons Attribution-NoDerivs 3.0 Unported","address":"https://creativecommons.org/licenses/by-nd/3.0/"},
 		{"id":"cc-zero-v1","name":"Creative Commons Public Domain Dedication","address":"https://creativecommons.org/publicdomain/zero/1.0/"},
+        {"id":"cpal-v1","name":"Common Public Attribution License Version 1.0","address":"http://opensource.org/licenses/CPAL-1.0"},
 		{"id":"mit","name":"MIT license","address":"http://www.opensource.org/licenses/MIT"},
 		{"id":"bsd","name":"BSD Simplified license","address":"http://www.opensource.org/licenses/BSD-2-clause"},
 		{"id":"gnu-agpl-v3","name":"GNU Affero General Public License v3","address":"https://www.gnu.org/licenses/agpl-3.0.html"},
@@ -18,6 +19,7 @@ var lp = {
 		{"id":"cpal-v1","name":"Common Public Attribution License v1","address":"http://opensource.org/licenses/cpal_1.0"},
 		{"id":"zpl-v2","name":"The Zope Public License v2","address":"http://opensource.org/licenses/zpl-2.0"},
 		{"id":"apache-v2","name":"Apache License v2","address":"https://www.apache.org/licenses/LICENSE-2.0.html"},
+        {"id":"artistic-v2","name":"Artistic License 2.0","address":"http://www.opensource.org/licenses/Artistic-2.0"},
 		{"id":"epl-v1","name":"Eclipse Public License v1","address":"http://eclipse.org/org/documents/epl-v10.php"},
 		{"id":"afl-v2","name":"Academic Free License 2.1"}
 	],
@@ -51,6 +53,7 @@ var lp = {
 		{"id":"freenode","category":"social","name":"Freenode","description":"IRC","address":"http://webchat.freenode.net/","licenses":["gnu-gpl-v2"],"tags":["irc","chat"],"introduction":"Freenode provides discussion facilities for the Free and Open Source Software communities, for not-for-profit organizations and for related communities and organizations.","source":"https://hg.qwebirc.org/qwebirc"},
 		{"id":"seeks","category":"tools","name":"Seeks","description":"search engine","address":"http://seeks.fr/","licenses":["gnu-agpl-v3"],"tags":["searchengine"],"alternative":["google","bing","yahoo"],"introduction":"Seeks is a free and open technical design and application for enabling social websearch. Its specific purpose is to regroup users whose queries are similar so they can share both the query results and their experience on these results.","source":"http://seeks.git.sourceforge.net/git/gitweb.cgi?p=seeks/seeks;a=tree"},
 		{"id":"etherpad","category":"tools","name":"Titanpad","description":"document editor","address":"http://titanpad.com/","licenses":["apache-v2"],"tags":["collaborative","document","editor"],"introduction":"Web-based realtime collaborative document editor.","source":"https://github.com/titanpad/titanpad"},
+		{"id":"ethercalc","category":"tools","name":"EtherCalc","description":"spreadsheet","address":"https://ethercalc.org/","licenses":["cpal-v1","artistic-v2"],"tags":["collaborative","spreadsheet","data","editor","math"],"introduction":"Node.js port of Multi-user SocialCalc","source":"https://github.com/audreyt/ethercalc"},
 		{"id":"owncloud","category":"tools","name":"ownCloud","description":"personal data","address":"http://owncloud.org/","licenses":["gnu-agpl-v3"],"tags":["document","calendar","cloud","data"],"alternative":["google calendar","delicious","ubuntu one","dropbox","google drive"],"introduction":"ownCloud gives you universal access to your files through a web interface or WebDAV. It also provides a platform to easily view & sync your contacts, calendars and bookmarks across all your devices and enables basic editing right on the web.","source":"https://github.com/owncloud"},
 		{"id":"litewrite","category":"tools","name":"Litewrite","description":"text editor","address":"http://litewrite.net","licenses":["gnu-agpl-v3"],"tags":["document","editor"],"introduction":"Simple distraction-free editor.","source":"https://github.com/litewrite/litewrite"},
 		{"id":"grical","category":"tools","name":"GriCal","description":"open calendar","address":"http://grical.org/","licenses":["gnu-agpl-v3"],"tags":["calendar","public","collaborative"],"introduction":"GriCal (which is a short form for Grid Calendar) is an open web where people store quickly a few information about interesting events, so that others can also easily know about them. Events in GriCal can be edited by anyone like pages of the Wikipedia.","source":"http://code.grical.org/browser"},
