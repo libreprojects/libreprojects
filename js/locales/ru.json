@@ -5,6 +5,9 @@
 	"search":
 	"искать",
 
+	"No results for":
+	"Ничего не найдено по",
+
 	"Information":
 	"Информация",
 
@@ -86,7 +89,6 @@
 	"globus":"глобус",
 	"gogogo!":"gogogo!",
 	"graphic editor":"графический редактор",
-	"guide":"гид",
 	"hacking":"хакерство",
 	"help platform":"справочная платформа",
 	"hitchhiking":"автостоп",
@@ -141,6 +143,7 @@
 	"tennis":"теннис",
 	"text editor":"текстовый редактор",
 	"time tracking":"время",
+	"travel guide":"Путеводитель",
 	"to-do list":"список дел",
 	"tools":"инструменты",
 	"translation":"перевод",
@@ -149,5 +152,18 @@
 	"university":"университет",
 	"website":"веб-сайт",
 	"wiki":"вики",
-	"world map":"карта мира"
+	"world map":"карта мира",
+
+  "The free news source you can write.":
+  "свободный источник новостей, которые может написать каждый.",
+
+  "The free encyclopedia that anyone can edit.":
+  "свободную энциклопедию, которую может редактировать каждый.",
+
+  "A database of freely usable media files to which anyone can contribute.":
+  "собрание свободных для дальнейшего использования медиафайлов.",
+
+  "The free species directory that anyone can edit.":
+  "свободный каталог жизни."
+
 }

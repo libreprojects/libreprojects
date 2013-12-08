@@ -182,16 +182,16 @@ lp = $.extend(lp, {
 			var value = $search.val().toLowerCase();
 
 			// Hide or show projects depending if they match or not
-			$('#categories ul li .name').each(function(idx, project) {
-				var $project = $(project);
-				if (value && $project.text().toLowerCase().indexOf(value) == -1) {
-					$project.parents('li').hide();
-				} else {
-					$project.parents('li').show();
-				}
-			} );
-
-			lp.categoriesDisplay();
+			var find = $('#categories ul li').filter(function() {return this.id.toLowerCase().match(value);});
+			if (find.length) {
+			  if ( $('#searchError').is(':visible') ) { $('#searchError').toggle(); }
+			  $('#categories ul li').hide();
+			  find.show();
+			  lp.categoriesDisplay();
+			} else {
+			  $('#searchItem').text(value);
+			  if ( $('#searchError').is(':hidden') ) { $('#searchError').toggle(); }
+			}
 //		} );
 	},
 

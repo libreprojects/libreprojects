@@ -23,6 +23,7 @@ a img { border:0; }
 #search { z-index:200; margin:-2em 0 0; text-align:right; background:none; border:none; }
 #search label { display:inline-block; text-align:left; width:6em; margin-right:-7em; padding:.5em; font-size:2em; }
 #searching { background:none; border:none; color:#fff; font-size:2em; padding:.3em .5em; width:7em; outline:0; }
+#searchError { display: none; color: #ccc; margin-left: 1em; position:absolute; width:14em; top:7.5em; right:4em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* main heading */
 h1 { font-size:3.8em; display:block; white-space:nowrap; }
@@ -35,8 +36,8 @@ p+h2+p { position:absolute; font-size:3em; margin:-1em 0 0 12.5em; z-index:100; 
 p+h2 a { padding:1em; }
 
 /* category headings */
-h2 { font-size:2em; margin:.3em -5em 0 -3.5em; position:relative; float:left; clear:left; z-index:-100; text-transform:capitalize; padding:1em 0; }
-h2 a { color:#111; position:absolute; text-align:right; text-shadow:#444 0 1px 0; }
+h2 { font-size:2em; margin:.3em 0 0 0; clear:left; z-index:-100; text-transform:capitalize; padding:1.5em 0 0.75em 0; }
+h2 a { color:#111; text-align:right; text-shadow:#444 0 1px 0; }
 h2 a:hover, h2 a:focus { color:#000; text-shadow:#444 0 1px 0; outline:0; }
 h2#top+ul { margin-bottom:1.5em; }
 
@@ -51,7 +52,7 @@ h2+ul li a .star-on:after { color:#D9C540; content:'\2605\a0'; }
 h2+ul li a .star-on:hover:after { content:'\2606\a0'; color:#ccc; }
 
 h2#favorites, h2#favorites+ul {display:none;}
-h2#favorites {padding-left:45px;}
+h2#favorites {padding-left:0;}
 h2#favorites a:hover {color:#D9C540}
 
 /* icon hover */
