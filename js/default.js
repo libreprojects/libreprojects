@@ -419,6 +419,7 @@ lp = $.extend(lp, {
 					$details.find('.description').html(lp.actualProject.description);
 					$details.find('.category').attr('href', '#' + lp.actualProject.category).html(lp.actualProject.category).data('text', 'Check the ' + lp.actualProject.category + ' category');
 					$details.find('.logo').attr('src', 'logos/' + lp.actualProject.id + '.png');
+					$details.find('.logo').attr('alt', lp.actualProject.id);
 
 					var $tags = $details.find('.tags').html('');
 					if (lp.actualProject.tags && lp.actualProject.tags.length) {
@@ -626,7 +627,7 @@ $(document).ready(function() {
 		var $ul = $('<ul />').appendTo($categories);
 		$.each(lp.projects, function(pidx, project) {
 			if (category.id == project.category) {
-				$('<li id="' + project.id + '" />').html('<a href="' + project.address + '"><img src="logos/' + project.id + '.png" alt="" /><span class="project"><strong class="name">' + project.name + '</strong><span class="translatable">' + project.description + '</span></span><span class="star star-off"></span></a></li>')
+				$('<li id="' + project.id + '" />').html('<a href="' + project.address + '"><img src="logos/' + project.id + '.png" alt="' + project.id + ' logo" /><span class="project"><strong class="name">' + project.name + '</strong><span class="translatable">' + project.description + '</span></span><span class="star star-off"></span></a></li>')
 					   .data('category', category.id)
 					   .appendTo($ul);
 			}
