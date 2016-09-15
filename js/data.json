@@ -145,7 +145,6 @@ var lp = {
 		{"id":"html5drummachine","category":"audio","name":"Drum Machine","description":"sequencer","address":"http://stepheneisenhauer.com/demos/drummachine/"},
 
 		{"id":"openstreetmap","category":"travel","name":"OpenStreetMap","description":"world map","address":"http://openstreetmap.org/"},
-		{"id":"graphhopper","category":"travel","name":"graphhopper","description":"routing","address":"http://graphhopper.com/maps/","licenses":["apache-v2"],"source":"https://github.com/graphhopper/graphhopper/","tags":["maps","routing"],"alternative":["bing","google"],"introduction":"GraphHopper is a fast and memory efficient Java road routing engine released under Apache License 2.0. It is tuned towards road networks with OpenStreetMap data but can be useful for public transport problems as well."},
 		{"id":"webglearth","category":"travel","name":"WebGL Earth","description":"globus","address":"http://webglearth.com/","licenses":["gnu-gpl-v3"],"source":"https://github.com/webglearth/webglearth"},
 		{"id":"wikivoyage","category":"travel","name":"Wikivoyage","description":"travel guide","address":"http://wikivoyage.org/", "introduction":"Free worldwide travel guide that anyone can edit."},
 		{"id":"openmarkers","category":"travel","name":"openMarkers","description":"places","address":"http://openmarkers.com/","licenses":["gnu-gpl-v3"],"source":"https://launchpad.net/openmarkers"},
