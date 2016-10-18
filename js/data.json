@@ -187,6 +187,7 @@ var lp = {
 		{"id":"robotsarepeopletoo","category":"games","name":"Robots Are People Too","description":"platformer","address":"http://raptjs.com/play","licenses":["gnu-gpl-v3"],"source":"http://github.com/evanw/rapt"},
 		{"id":"blobbyvolley","category":"games","name":"Blobby Volley","description":"sports","address":"http://blobby.sourceforge.net/data/bv2browser/index.html","licenses":["gnu-gpl-v3"],"source":"http://sourceforge.net/projects/blobby/"},
 		{"id":"achtungdiekurve","category":"games","name":"Achtung die Kurve","description":"lines","address":"http://stravid.com/projects/achtung-die-kurve/","licenses":["mit"],"source":"http://github.com/stravid/achtung-die-kurve/"},
+                {"id":"freeciv","category":"games","name":"Freeciv","description":"strategy","address":"https://play.freeciv.org/"},
 		{"id":"monkeymadness","category":"games","name":"Monkey Madness","description":"slingshot","address":"http://manicmonkeymadness.appspot.com/","licenses":["mit"],"source":"http://code.google.com/p/manicmonkeymadness/"},
 		{"id":"pentagoo","category":"games","name":"Pentagoo","description":"puzzle","address":"http://cheeaun.com/projects/pentagoo/","licenses":["mit"],"source":"http:/code.google.com/p/pentagoo/"},
 
