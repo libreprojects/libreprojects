@@ -95,7 +95,7 @@ var lp = {
 		{"id":"universalsubtitles","category":"video","name":"Universal","description":"subtitles","address":"http://universalsubtitles.org/"},
 
 		{"id":"mediagoblin","category":"graphics","name":"MediaGoblin","description":"media community","address":"http://gobblin.se/","licenses":["gnu-agpl-v3"],"source":"http://gitorious.org/mediagoblin/mediagoblin"},
-		{"id":"svg-edit","category":"graphics","name":"SVG-edit","description":"graphic editor","address":"http://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html","licenses":["mit"]},
+		{"id":"svg-edit","category":"graphics","name":"SVG-edit","description":"graphic editor","address":"https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html","licenses":["mit"],"source":"https://github.com/SVG-Edit/svgedit"},
 		{"id":"harmony","category":"graphics","name":"Harmony","description":"drawing tool","address":"http://mrdoob.com/projects/harmony/"},
 		{"id":"mindmup","category":"graphics","name":"Mind Mup","description":"mind mapping","address":"http://www.mindmup.com","licenses":["mit"],"source":"https://github.com/mindmup/mindmup"},
 		{"id":"openclipartlibrary","category":"graphics","name":"Open Clip Art","description":"artwork","address":"http://openclipart.org/"},
@@ -127,7 +127,6 @@ var lp = {
 		{"id":"limesurvey","category":"organization","name":"LimeSurvey","description":"surveys","address":"http://limeservice.com/","licenses":["gnu-gpl-v2"],"source":"https://github.com/LimeSurvey/LimeSurvey"},
 		{"id":"citizenspeak","category":"organization","name":"CitizenSpeak","description":"petitions","address":"http://citizenspeak.org/"},
 		{"id":"crowdmap","category":"organization","name":"Crowdmap","description":"mapping","address":"http://crowdmap.com/","licenses":["gnu-lgpl-v3"],"source":"https://github.com/ushahidi/Ushahidi_Web"},
-		{"id":"backchannl","category":"organization","name":"backchan.nl","description":"audience","address":"http://backchan.nl/","licenses":["bsd"],"source":"https://github.com/drewww/backchan.nl"},
 		{"id":"beex","category":"organization","name":"BEEx","description":"funding","address":"http://beex.org/","source":"https://github.com/beexsvn/Beex.org"},
 		{"id":"taiga","category":"organization","name":"Taiga","description":"projects","address":"http://taiga.io/","licenses":["gnu-agpl-v3"],"introduction": "Taiga is a project management platform for agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable.","source":"https://taiga.io/"},
 
