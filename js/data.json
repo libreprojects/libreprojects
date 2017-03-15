@@ -160,7 +160,6 @@ var lp = {
 		{"id":"jsbin","category":"development","name":"JS Bin","description":"editor","address":"http://jsbin.com/","licenses":["mit"],"source":"https://github.com/remy/jsbin/"},
 		{"id":"htmlpad","category":"development","name":"HTMLPad","description":"editor","address":"http://htmlpad.org/"},
 		{"id":"hascanvas","category":"development","name":"HasCanvas","description":"processing","address":"http://hascanvas.com/"},
-		{"id":"maqetta","category":"development","name":"Maqetta","description":"mockups","address":"http://maqetta.org/","licenses":["bsd","afl-v2"],"source":"https://github.com/maqetta/maqetta"},
 		{"id":"showslow","category":"development","name":"Show Slow","description":"metrics","address":"http://showslow.com/","licenses":["bsd"],"source":"https://github.com/sergeychernyshev/showslow"},
 		{"id":"translatewiki","category":"development","name":"Translatewiki","description":"translation","address":"http://translatewiki.net/", "introduction": "A localisation platform for translation communities, language communities, and free and open source projects."},
 
