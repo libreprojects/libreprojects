@@ -152,6 +152,7 @@ var lp = {
 		{"id":"useit","category":"travel","name":"Use-It","description":"city guides","address":"http://use-it.travel/"},
 
 		{"id":"launchpad","category":"development","name":"Launchpad","description":"platform","address":"http://launchpad.net/","licenses":["gnu-agpl-v3"],"source":"https://dev.launchpad.net/"},
+		{"id":"buddycloud","category":"development","name":"Buddycloud","description":"platform","address":"http://buddycloud.com/","licenses":["apache-v2"],"tags":["social","network","decentralized","messaging","backend","xmpp"],"alternative":["facebook","google plus","twitter","gtalk"],"introduction":"Buddycloud helps developers add messaging to their apps based on open standards and protocols, and run it all as a decentralised service.","source":"https://github.com/buddycloud"},
 		{"id":"codingteam","category":"development","name":"CodingTeam","description":"platform","address":"http://codingteam.net/","licenses":["gnu-agpl-v3"],"source":"http://codingteam.net/project/codingteam"},
 		{"id":"gitlab","category":"development","name":"GitLab","description":"repositories","address":"https://about.gitlab.com/","licenses":["mit"],"source":"https://gitlab.com/gitlab-org/gitlab-ce","introduction":"Create, review and deploy code together"},
 		{"id":"tuxfamily","category":"development","name":"TuxFamily","description":"hosting","address":"http://tuxfamily.org/"},
