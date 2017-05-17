@@ -1,0 +1,159 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; cursor:default; }
+html, body { height:100%; }
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display:block; }
+body { line-height:1.5; }
+table { border-collapse:separate; border-spacing:0; white-space:nowrap; }
+caption, th, td { text-align:left; font-weight:normal; }
+table, td, th { vertical-align:middle; }
+a { border:0; color:#000; text-decoration:none;}
+a, a *, input, input *, select, .button span, label { cursor:pointer; }
+ul { list-style:none; }
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-weight: normal;
+    font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
+    font-size: 34px;
+    line-height: 1.7em;
+}
+
+p {
+    margin-bottom: 1.7em;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 89px;
+    margin-top: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+h2 {
+    font-size: 55px;
+    margin-top: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+h3 {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+p {
+    font-size: 34px !important;
+}
+
+a {
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    opacity: .9;
+}
+a:hover, a:focus {
+    opacity: .6;
+    outline: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+    list-style: disc;
+}
+
+#background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#index, #indextitle { position:fixed; top:1em; left:3em; font-size:.45em; line-height:120%; font-weight:bold; color:#000; opacity:.3; -webkit-transition:opacity 300ms; -moz-transition:opacity 300ms; -o-transition:opacity 300ms; transition:opacity 300ms; }
+#index { top:5em; }
+#index:hover, #index:focus { opacity:1; }
+#index a { display:block; font-weight:normal; }
+#index ol { list-style:none; }
+#index li a:hover, #index li a:focus, #index li a:active, #index li.current>a { font-weight:bold; opacity:1; color:#000; }
+#index ol li:hover, #index ol li:focus, #index ol li:active, #index li.current { list-style:decimal; }
+#indextitle strong a { font-size:1.4em; color:#000; margin-bottom:.2em; }
+#indextitle em a { font-size:1.2em; color:#000; margin-bottom:.5em; }
+
+p strong+a { white-space:normal; }
+
+
+
+header,
+article {
+    padding: 10%;
+}
+header h1 {
+    margin-top: 0;
+}
+
+article {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+article .icon {
+    width: 5em;
+}
+article .content {
+    max-width: 45%;
+}
+article h2 {
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+article .use,
+article .contribute {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 300;
+}
+article .use {
+    background-color: #fff;
+    color: #000;
+}
+article .screenshot {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    max-height: 100%;
+}
+
+#firefox { background-color: #ea623b; }
+#gitlab { background-color: #6b4fbb; }
+#jamendo { background-color: #ff1f59; }
+#nextcloud { background-color: #0082c9; }
+#openstreetmap { background-color: #62c47f; }
+#taiga { background-color: #9dce0a; }
+#thenounproject { background-color: #231f20; }
+#wikipedia { background-color: #fff; color: #000; }
+#wikipedia .contribute { color: #000; border-color: #000; }
+
+@media only screen and (max-width: 768px) {
+    article .content {
+        max-width: 100%;
+    }
+    article .screenshot {
+        position: relative;
+        left: 0;
+        top: 2em;
+        max-height: 20em;
+        margin-bottom: -5em;
+    }
+}
