@@ -376,15 +376,15 @@ lp = $.extend(lp, {
 			$details = $('#project-details')
 		}
 		var tosdr = lp.actualProject.tosdr;
-		var text = tosdr.tosdr.rated == false ? 'No class yet' : tosdr.tosdr.rated;
-		var alternative = tosdr.tosdr.rated == false ? 'Not rated yet, help ToS:DR to provide one!' : 'Rated ' + tosdr.tosdr.rated + ' - rate being from A to E';
+		var text = tosdr.class == false ? 'No class yet' : tosdr.class;
+		var alternative = tosdr.class == false ? 'Not rated yet, help ToS:DR to provide one!' : 'Rated ' + tosdr.class + ' - rate being from A to E';
 
 		var $tosdr = $details.find('.tosdr ul').html('');
 		$('<li />').html('<a href="https://tosdr.org/#' + lp.actualProject.id + '">' + text + '</a>')
 		           .addClass('tosdr')
 		           .appendTo($tosdr)
 		           .find('a')
-		           .addClass('tosdr-' + tosdr.tosdr.rated + ' translatable')
+		           .addClass('tosdr-' + tosdr.class + ' translatable')
 		           .data('text', alternative);
 
 		lp.bindTipOnHover($details);
@@ -398,8 +398,8 @@ lp = $.extend(lp, {
 				dialog.overlay.fadeIn('fast', function() {
 					// Retrieving TOS:DR information if not done already
 					if (! lp.actualProject.tosdr) {
-						lp.actualProject.tosdr = {tosdr:{rated: false}};
-						$.getJSON('https://tosdr.org/services/' + lp.actualProject.id + '.json')
+						lp.actualProject.tosdr = { class: false };
+						$.getJSON('https://tosdr.org/api/1/service/' + lp.actualProject.id + '.json')
 							.done(function(data) {
 								if (data) {
 									lp.actualProject.tosdr = data;
