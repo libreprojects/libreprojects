@@ -603,7 +603,7 @@ $(document).ready(function() {
 	$.each(lp.locales, function(lidx, locale) {
 		var $li = $('<li id="lang-' + locale.id + '" />');
 		var $a = $('<a href="#" />')
-			 .html('<img src="images/countries/' + locale.id + '.png" alt="' + locale.name + ' flag" />')
+			 .html('<img src="images/countries/' + locale.id + '.png" title="' + locale.name + '" alt="' + locale.name + ' flag" />')
 			 .click(function() {
 				 lp.setLocale(locale.id);
 				 return false;
