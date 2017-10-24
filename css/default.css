@@ -38,8 +38,8 @@ p+h2 a { padding:1em; }
 
 /* category headings */
 h2 { font-size:2em; margin:.3em 0 0 0; clear:left; z-index:-100; text-transform:capitalize; padding:1.5em 0 0.75em 0; }
-h2 a { color:#111; text-align:right; text-shadow:#444 0 1px 0; }
-h2 a:hover, h2 a:focus { color:#000; text-shadow:#444 0 1px 0; outline:0; }
+h2 a { color:#777777; text-align:right; }
+h2 a:hover, h2 a:focus { color:#000; outline:0; }
 h2#top+ul { margin-bottom:1.5em; }
 
 h2+ul li { line-height:6em; }
