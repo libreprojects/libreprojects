@@ -192,7 +192,7 @@ var lp = {
 
 		{"id":"mirocommunity","category":"video","name":"Miro Community","description":"platform","address":"http://mirocommunity.org/","licenses":["gnu-agpl-v3"],"source":"https://github.com/pculture/mirocommunity"},
 		{"id":"openhatch","category":"organization","name":"OpenHatch","description":"help platform","address":"http://openhatch.org/","licenses":["gnu-agpl-v3"],"source":"https://github.com/openhatch/oh-mainline"},
-		{"id":"friendica","category":"social","name":"Friendica","description":"social multi network","address":"http://friendica.com/","licenses":["mit"],"tags":["social","network","decentralized","microblog"],"alternative":["facebook","google plus","twitter"],"introduction":"Friendica is is an open source, free social web server. Your 'friends' can be from Facebook, Diaspora, Twitter, Identi.ca, weblogs and RSS feeds - and even email.","source":"https://github.com/friendica/"},
+		{"id":"friendica","category":"social","name":"Friendica","description":"social multi network","address":"https://friendi.ca/","licenses":["gnu-agpl-v3"],"tags":["social","network","decentralized","microblog"],"alternative":["facebook","google plus","twitter"],"introduction":"Friendica is is an open source, free social web server. Your 'friends' can be from Diaspora, GNU Social, Hubzilla, Mastodon, Twitter, weblogs and RSS feeds - and even email.","source":"https://github.com/friendica/"},
 		{"id":"orion","category":"development","name":"Orion","description":"IDE","address":"http://orionhub.org/","licenses":["epl-v1"],"tags":["ide","cloud"],"introduction": "Open Source Platform For Cloud Based Development"},
 	],
 	"defaultFavorites" : ["wikipedia", "joindiaspora-com", "nextcloud", "wordpress", "openstreetmap", "jamendo", "plos"]
