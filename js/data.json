@@ -106,7 +106,7 @@ var lp = {
 		{"id":"googlewebfonts","category":"graphics","name":"Google Web Fonts","description":"typefaces","address":"https://www.google.com/webfonts"},
 
 		{"id":"wordpress-com","category":"publishing","name":"WordPress","description":"blog","address":"http://wordpress.com/","licenses":["gnu-gpl-v2"],"source":"https://github.com/WordPress/WordPress"},
-		{"id":"drupal","category":"publishing","name":"Drupal","description":"website","address":"http://drupalgardens.com/","licenses":["gnu-gpl-v2"], "source":"http://cgit.drupalcode.org/drupal/"},
+		{"id":"drupal","category":"publishing","name":"Drupal","description":"website, cms","address":"http://www.drupal.org/","licenses":["gnu-gpl-v2"], "source":"http://cgit.drupalcode.org/drupal/"},
 		{"id":"impresspages","category":"publishing","name":"ImpressPages","description":"website","address":"http://impresspages.org/"},
 		{"id":"wikia","category":"publishing","name":"Wikia","description":"wiki","address":"http://wikia.com/","licenses":["gnu-gpl-v2"],"source":"https://github.com/wikimedia/mediawiki"},
 		{"id":"libravatar","category":"publishing","name":"Libravatar","description":"web avatar service","address":"http://www.libravatar.org/","licenses":["gnu-agpl-v3"],"tags":["avatar","decentralized"],"alternative":["gravatar"]},
