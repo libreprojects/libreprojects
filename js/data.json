@@ -187,7 +187,6 @@ var lp = {
 		{"id":"pentagoo","category":"games","name":"Pentagoo","description":"puzzle","address":"http://cheeaun.com/projects/pentagoo/","licenses":["mit"],"source":"http:/code.google.com/p/pentagoo/"},
 
 		{"id":"nes","category":"emulators","name":"JSNES","description":"NES","address":"http://fir.sh/projects/jsnes/","licenses":["gnu-gpl-v3"],"source":"https://github.com/bfirsh/jsnes/"},
-		{"id":"gameboy","category":"emulators","name":"JSGB","description":"Game Boy","address":"http://codebase.es/jsgb/","licenses":["gnu-gpl-v3"],"source":"http://sourceforge.net/projects/jsgbemu/"},
 		{"id":"segamastersystem","category":"emulators","name":"Miracle","description":"Sega Master System","address":"http://xania.org/miracle/miracle.html","licenses":["gnu-gpl-v3"],"source":"https://github.com/mattgodbolt/Miracle"},
 
 		{"id":"mirocommunity","category":"video","name":"Miro Community","description":"platform","address":"http://mirocommunity.org/","licenses":["gnu-agpl-v3"],"source":"https://github.com/pculture/mirocommunity"},
