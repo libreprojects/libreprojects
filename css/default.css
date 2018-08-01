@@ -142,13 +142,8 @@ div#errorMsg {
 
 
 /* Viewer width ≥ 800px */
-@media screen and (max-width: 800px) {
-	div#errorMsg h1 {font-size:120px;margin-bottom:line-height:100px;}
-	div#errorMsg h4 {font-size:20px;line-height: 20px;}
-}
 @media screen and (min-width: 800px) {
 	body {margin:5em auto;}
-
 
 	/* header */
  	h1 {font-size: 3.8em;}
