@@ -119,6 +119,7 @@ h3+p, h3+p+p, h3+p+p+p { color:#777; }
 #project-details acronym {padding-bottom: 2px; border-bottom: dashed 1px #555; cursor: help;}
 
 /* No Js Enable ->  Message */
+<<<<<<< HEAD
 noscript {
     position: absolute;
     left: 50%;
@@ -138,18 +139,20 @@ div#errorMsg {
     top: 50%;
     transform: translate(-50%,-50%);
 }
-div#errorMsg h4 a {
-    color: #333;
-    text-shadow: #000 0 0 0;
-    text-align: center;
-    z-index: 300;
-}
 
 
+=======
+#errorMsg {background: red;padding: 20px;margin: 190px 0;}
+>>>>>>> 94c5d13b02800116b491dd43399d02279ac2ba1f
 
 /* Viewer width ≥ 800px */
+@media screen and (max-width: 800px) {
+	div#errorMsg h1 {font-size:120px;margin-bottom:line-height:100px;}
+	div#errorMsg h4 {font-size:20px;line-height: 20px;}
+}
 @media screen and (min-width: 800px) {
 	body {margin:5em auto;}
+
 
 	/* header */
  	h1 {font-size: 3.8em;}
