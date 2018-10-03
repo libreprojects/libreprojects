@@ -118,6 +118,34 @@ h3+p, h3+p+p, h3+p+p+p { color:#777; }
 
 #project-details acronym {padding-bottom: 2px; border-bottom: dashed 1px #555; cursor: help;}
 
+/* No Js Enable ->  Message */
+noscript {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    color: #333;
+    text-shadow: #000 0 0 0;
+    text-align: center;
+		z-index: 300;
+}
+div#errorMsg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+div#errorMsg h4 a {
+    color: #333;
+    text-shadow: #000 0 0 0;
+    text-align: center;
+    z-index: 300;
+}
+
+
 
 /* Viewer width ≥ 800px */
 @media screen and (min-width: 800px) {
