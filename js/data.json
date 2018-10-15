@@ -155,7 +155,6 @@ var lp = {
 		{"id":"ourproject","category":"development","name":"OurProject","description":"hosting","address":"http://ourproject.org/"},
 		{"id":"net2ftp","category":"development","name":"net2ftp","description":"FTP client","address":"http://net2ftp.com/","licenses":["gnu-gpl-v2"],"source":"http://www.net2ftp.com/homepage/download.html"},
 		{"id":"jsbin","category":"development","name":"JS Bin","description":"editor","address":"http://jsbin.com/","licenses":["mit"],"source":"https://github.com/remy/jsbin/"},
-		{"id":"htmlpad","category":"development","name":"HTMLPad","description":"editor","address":"http://htmlpad.org/"},
 		{"id":"hascanvas","category":"development","name":"HasCanvas","description":"processing","address":"http://hascanvas.com/"},
 		{"id":"showslow","category":"development","name":"Show Slow","description":"metrics","address":"http://showslow.com/","licenses":["bsd"],"source":"https://github.com/sergeychernyshev/showslow"},
 		{"id":"translatewiki","category":"development","name":"Translatewiki","description":"translation","address":"http://translatewiki.net/", "introduction": "A localisation platform for translation communities, language communities, and free and open source projects."},
