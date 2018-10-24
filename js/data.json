@@ -70,8 +70,8 @@ var lp = {
 		{"id":"wikiversity","category":"knowledge","name":"Wikiversity","description":"university","address":"http://wikiversity.org/","licenses":["gnu-gpl-v2"],"source":"https://github.com/wikimedia/mediawiki"},
 		{"id":"oercommons","category":"knowledge","name":"OER Commons","description":"edu resources","address":"http://oercommons.org/"},
 		{"id":"opencourseware","category":"knowledge","name":"OpenCourseWare","description":"courses","address":"http://ocwconsortium.org/courses"},
-		{"id":"p2pu","category":"knowledge","name":"Peer 2 Peer","description":"university","address":"http://new.p2pu.org/"},
-		{"id":"universityofreddit","category":"knowledge","name":"University of Reddit","description":"university","address":"http://universityofreddit.com"},
+		{"id":"p2pu","category":"knowledge","name":"Peer 2 Peer","description":"university","address":"https://www.p2pu.org/"},
+		{"id":"universityofreddit","category":"knowledge","name":"University of Reddit","description":"university","address":"http://ureddit.com"},
 		{"id":"fta","category":"knowledge","name":"Free Technology","description":"academy","address":"http://ftacademy.org/"},
 		{"id":"shapado","category":"knowledge","name":"Shapado","description":"question-answer","address":"http://shapado.com/"},
 
@@ -86,7 +86,7 @@ var lp = {
 		{"id":"vodo","category":"video","name":"Vodo","description":"platform","address":"http://vodo.net/"},
 		{"id":"filmaster","category":"video","name":"Filmaster","description":"community","address":"http://filmaster.com/"},
 		{"id":"communityvideo","category":"video","name":"Community Video","description":"database","address":"http://archive.org/details/opensource_movies"},
-		{"id":"universalsubtitles","category":"video","name":"Universal","description":"subtitles","address":"http://universalsubtitles.org/"},
+		{"id":"Amara","category":"video","name":"Amara","description":"subtitles","address":"https://amara.org/"},
 
 		{"id":"svg-edit","category":"graphics","name":"SVG-edit","description":"graphic editor","address":"https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html","licenses":["mit"],"source":"https://github.com/SVG-Edit/svgedit"},
 		{"id":"harmony","category":"graphics","name":"Harmony","description":"drawing tool","address":"http://mrdoob.com/projects/harmony/"},
@@ -166,7 +166,7 @@ var lp = {
 		{"id":"robotsarepeopletoo","category":"games","name":"Robots Are People Too","description":"platformer","address":"http://raptjs.com/play","licenses":["gnu-gpl-v3"],"source":"http://github.com/evanw/rapt"},
 		{"id":"blobbyvolley","category":"games","name":"Blobby Volley","description":"sports","address":"http://blobby.sourceforge.net/data/bv2browser/index.html","licenses":["gnu-gpl-v3"],"source":"http://sourceforge.net/projects/blobby/"},
 		{"id":"achtungdiekurve","category":"games","name":"Achtung die Kurve","description":"lines","address":"http://stravid.com/projects/achtung-die-kurve/","licenses":["mit"],"source":"http://github.com/stravid/achtung-die-kurve/"},
-                {"id":"freeciv","category":"games","name":"Freeciv","description":"strategy","address":"https://play.freeciv.org/"},
+                {"id":"freeciv","category":"games","name":"Freeciv","description":"strategy","address":"https://freecivweb.org/"},
 		{"id":"pentagoo","category":"games","name":"Pentagoo","description":"puzzle","address":"http://cheeaun.com/projects/pentagoo/","licenses":["mit"],"source":"http:/code.google.com/p/pentagoo/"},
 
 		{"id":"nes","category":"emulators","name":"JSNES","description":"NES","address":"http://fir.sh/projects/jsnes/","licenses":["gnu-gpl-v3"],"source":"https://github.com/bfirsh/jsnes/"},
