@@ -75,6 +75,7 @@ var lp = {
 		{"id":"universityofreddit","category":"knowledge","name":"University of Reddit","description":"university","address":"http://ureddit.com"},
 		{"id":"fta","category":"knowledge","name":"Free Technology","description":"academy","address":"http://ftacademy.org/"},
 		{"id":"shapado","category":"knowledge","name":"Shapado","description":"question-answer","address":"http://shapado.com/"},
+		{"id":"libreacademy","category":"knowledge","name":"Libre Academy","description":"learn to code","address":"https://libre.academy/learn","licenses":["mit"],"tags":["education","programming","learn-to-code"],"introduction":"Free, open-source app to learn to code in your browser — 90+ interactive courses across 26 languages, graded by hidden tests, with no account, install, or paywall.","source":"https://github.com/InfamousVague/Libre.academy"},
 
 		{"id":"projectgutenberg","category":"text","name":"Project Gutenberg","description":"library","address":"http://gutenberg.org/"},
 		{"id":"wikibooks","category":"text","name":"Wikibooks","description":"library","address":"http://wikibooks.org/", "introduction": "The open-content textbooks collection that anyone can edit.","licenses":["gnu-gpl-v2"],"source":"https://github.com/wikimedia/mediawiki"},
